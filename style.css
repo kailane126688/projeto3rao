@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 :root{
     --cor-de-fundo: #0F5835;
     --cor-de-texto:#6FFF57;
@@ -9,9 +9,8 @@
     --cor-botao:#4DB081;
     --cor-principal:#0F5835;
     --cor-borda:#02010E;
-    --cor-
-
 }
+
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-de-texto);
