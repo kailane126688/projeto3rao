@@ -4,11 +4,9 @@
     --cor-de-fundo: #BC95FD;
     --cor-de-texto:#6FFF57;
     --cor-botao:#1C764B;
-    --cor-botao:#29895B;
-    --cor-botao:#399E6E;
-    --cor-botao:#4DB081;
-    --cor-principal:#0F5835;
-    --cor-borda:#02010E;
+    --cor-quadrado:#29895B;
+    --botao-inativo:#399E6E;
+    --branco:#4DB081;
     --botao-ativo:#94FF0D;
 }
 
