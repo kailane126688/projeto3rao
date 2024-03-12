@@ -9,6 +9,7 @@
     --cor-botao:#4DB081;
     --cor-principal:#0F5835;
     --cor-borda:#02010E;
+    --botao-ativo:#94FF0D;
 }
 
 body{
@@ -40,5 +41,28 @@ body{
     display: flex;
     justify-content: center;
     padding: 1em;
+    font: size 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px s0lid var(--botao ativo);
+    border-left: 2px soli var(--botao ativo);
+    border-right: 2px solid var(--botao ativo);
+    border-top:none
 }
-
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+.botoes{
+    display:block;
+}
+@media screen and (min-width: 768px){
+    .botoes{
+        display: flex;
+    }
+    .botao:first-child{
+        border-radius: 40px 40px 0 0;
+    }
+    .border:last-child{
+        border-radius: 0 40px 0 0;
+    }
+}
